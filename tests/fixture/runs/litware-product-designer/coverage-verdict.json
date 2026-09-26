@@ -1,0 +1,57 @@
+{
+  "posting": "https://example.test/jobs/litware-product-designer",
+  "judged": "2026-01-15",
+  "requirements": [
+    {
+      "index": "R1",
+      "verdict": "covered",
+      "cites": [
+        "co_1_impact"
+      ]
+    },
+    {
+      "index": "R2",
+      "verdict": "covered",
+      "cites": [
+        "compass_technical",
+        "atlas_technical"
+      ]
+    },
+    {
+      "index": "R3",
+      "verdict": "covered",
+      "cites": [
+        "compass_process"
+      ]
+    },
+    {
+      "index": "R4",
+      "verdict": "covered",
+      "cites": [
+        "compass_ownership",
+        "fb_3_process"
+      ]
+    },
+    {
+      "index": "R5",
+      "verdict": "covered",
+      "cites": [
+        "lumen_ownership"
+      ]
+    },
+    {
+      "index": "R6",
+      "verdict": "covered",
+      "cites": [
+        "kite_research"
+      ]
+    },
+    {
+      "index": "R7",
+      "verdict": "partial",
+      "cites": [
+        "fb_2_research"
+      ]
+    }
+  ]
+}

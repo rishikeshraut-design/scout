@@ -1,0 +1,67 @@
+# Sanctioned mess — never committed
+scratch/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Contact details live here, never in git. resume.json holds achievements only.
+src/contact.json
+!src/contact.example.json
+
+# board-health.tsv is NOT ignored. A CI runner is thrown away after every job, so
+# ignoring it would mean the scheduled scans record nothing, and it is append-only
+# observation that cannot be reconstructed later. jobs.tsv is not here either — it
+# is the application record and the only copy.
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+.next/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Rendered resumes carry contact details, and they are reproducible: a tracked
+# selection.json plus resume.json and contact.json regenerate any of them
+# exactly. So the selections are kept and the renders are not.
+#
+# Deliberately near the end: git takes the last matching rule, and a broad `out/`
+# rule would untrack every selection.json — the one artifact here worth keeping.
+out/**/*.pdf
+out/**/*.html
+
+# src/postings/ is tracked (decision 020). The store is primary, perishable data:
+# the text of a delisted posting cannot be re-fetched, and a stored posting never
+# changes, so each appears in exactly one diff.
+
+# The duty bank is derived, not observed. It is regenerated from src/postings/ with
+# `node src/mine-duties.mjs`, and tracking it would put a large, rewritten-daily
+# file into permanent git history.
+src/duty-bank.json
+
+# The shortlist is derived and regenerated whole every run (spec 006 R12).
+# Committing it would rewrite every line daily.
+out/shortlist/
+
+# The backfill writes this beside jobs.tsv as belt-and-braces for the moment of
+# the rewrite. Git already holds the pre-change ledger, so tracking it would mean
+# a second, immediately-stale copy of the application record.
+src/jobs.tsv.bak

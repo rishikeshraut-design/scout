@@ -1,0 +1,16 @@
+# Normalize line endings to LF in the repo.
+# Without this, files committed on Windows (CRLF) show up as wholly modified when
+# checked out on the Mac and vice versa - every file looks changed, and real diffs
+# get lost in the noise. Checkouts still get native endings on each machine.
+* text=auto eol=lf
+
+# Binary assets: never touch these.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.fig binary
+*.sketch binary
+*.mp4 binary
+*.mov binary

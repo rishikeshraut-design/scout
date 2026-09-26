@@ -1,0 +1,68 @@
+{
+  "key": "https://example.test/jobs/adventure-works-customer-experience-associate",
+  "url": "https://example.test/jobs/adventure-works-customer-experience-associate",
+  "source": "fixture",
+  "company": "Adventure Works",
+  "title": "Customer Experience Associate",
+  "fetched": "2026-01-15T12:00:00.000Z",
+  "posted": "2026-01-14",
+  "format": "text",
+  "blocks": [
+    {
+      "kind": "p",
+      "text": "Requirements"
+    },
+    {
+      "kind": "li",
+      "text": "Two years of experience in a customer-facing role."
+    },
+    {
+      "kind": "li",
+      "text": "Calm and patient with frustrated customers."
+    },
+    {
+      "kind": "li",
+      "text": "Able to learn new software quickly."
+    },
+    {
+      "kind": "li",
+      "text": "Strong attention to detail when handling returns."
+    },
+    {
+      "kind": "li",
+      "text": "Comfortable working with targets for response time."
+    },
+    {
+      "kind": "li",
+      "text": "Able to lift boxes up to 20 kilograms."
+    },
+    {
+      "kind": "li",
+      "text": "Available for weekend shifts during the holiday season."
+    },
+    {
+      "kind": "li",
+      "text": "Clear written communication for email support."
+    },
+    {
+      "kind": "li",
+      "text": "A positive attitude when working in a team."
+    },
+    {
+      "kind": "p",
+      "text": "Where this role can lead"
+    },
+    {
+      "kind": "li",
+      "text": "Leadership Tracks: Associate -> Team Lead -> Store Manager"
+    },
+    {
+      "kind": "li",
+      "text": "Operations Tracks: Associate -> Inventory Lead -> Operations Manager"
+    },
+    {
+      "kind": "li",
+      "text": "Training Tracks: Associate -> Trainer -> Learning Coordinator"
+    }
+  ]
+}

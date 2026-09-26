@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(git:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh auth status:*)",
+      "PowerShell(git:*)",
+      "PowerShell(gh repo create:*)",
+      "PowerShell(gh repo view:*)",
+      "PowerShell(gh auth status:*)"
+    ]
+  }
+}

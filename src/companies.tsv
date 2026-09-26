@@ -1,0 +1,61 @@
+# Verified company job boards.  ats <TAB> slug <TAB> display name
+#
+# Every row here was confirmed live by src/discover.mjs — a guessed slug fails
+# silently forever, and a dead board looks exactly like "no new jobs".
+# Add companies with:  node src/discover.mjs "Company Name"
+#
+# Verified 2026-08-19; 7 added and identity-checked 2026-08-21.
+#
+# Identity, not just liveness: a slug can resolve to a different company with the
+# same name. "fellow" is a San Francisco coffee brand, not Fellow.app Ottawa, and
+# "sanctuary" is not Sanctuary AI. Both were rejected. Confirm a board is the right
+# company by reading its job locations before adding a row.
+greenhouse	cleargov	ClearGov
+greenhouse	clutch	Clutch
+greenhouse	d2l	D2L
+greenhouse	faire	Faire
+greenhouse	flipp	Flipp
+greenhouse	hootsuite	Hootsuite
+greenhouse	instacart	Instacart
+greenhouse	later	Later
+greenhouse	pagerduty	PagerDuty
+greenhouse	pine	Pine
+greenhouse	ritual	Ritual
+greenhouse	tulip	Tulip Retail
+lever	achievers	Achievers
+lever	arcadia	Arcadia
+lever	deepgenomics	Deep Genomics
+lever	knix	Knix
+lever	magnetforensics	Magnet Forensics
+lever	policyme	PolicyMe
+lever	relay	Relay Financial
+lever	waabi	Waabi
+lever	wattpad	Wattpad
+lever	wealthfront	Wealthfront
+ashby	1password	1Password
+ashby	benevity	Benevity
+ashby	bluedot	BlueDot
+ashby	clearco	Clearco
+ashby	cohere	Cohere
+ashby	dapper	Dapper Labs
+ashby	docebo	Docebo
+ashby	float	Float
+ashby	homebase	Homebase
+ashby	hopper	Hopper
+ashby	jane	Jane
+ashby	jobber	Jobber
+ashby	kira	Kira Systems
+ashby	koho	KOHO
+ashby	lightspeed	Lightspeed
+ashby	loopio	Loopio
+ashby	miovision	Miovision
+ashby	neofinancial	Neo Financial
+ashby	rewind	Rewind
+ashby	thinkific	Thinkific
+ashby	top-hat	Top Hat
+ashby	trulioo	Trulioo
+ashby	wealthsimple	Wealthsimple
+workday	applyboard/ApplyBoardNH/wd3	ApplyBoard
+greenhouse	leagueinc	League
+workday	generac/External/wd5	Generac (ecobee)
+gem	axonify	Axonify

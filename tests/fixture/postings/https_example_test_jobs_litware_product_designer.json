@@ -1,0 +1,60 @@
+{
+  "key": "https://example.test/jobs/litware-product-designer",
+  "url": "https://example.test/jobs/litware-product-designer",
+  "source": "fixture",
+  "company": "Litware",
+  "title": "Product Designer",
+  "fetched": "2026-01-15T12:00:00.000Z",
+  "posted": "2026-01-14",
+  "format": "text",
+  "blocks": [
+    {
+      "kind": "p",
+      "text": "About Litware"
+    },
+    {
+      "kind": "p",
+      "text": "Litware makes scheduling software for small clinics and is hiring a product designer to join its core team."
+    },
+    {
+      "kind": "p",
+      "text": "Responsibilities"
+    },
+    {
+      "kind": "li",
+      "text": "Design end-to-end flows for booking, intake and billing, from research to shipped screens."
+    },
+    {
+      "kind": "li",
+      "text": "Run interviews and usability tests with clinic staff and patients."
+    },
+    {
+      "kind": "li",
+      "text": "Maintain and extend the shared component library in Figma."
+    },
+    {
+      "kind": "li",
+      "text": "Work closely with engineers and product managers through delivery."
+    },
+    {
+      "kind": "p",
+      "text": "Requirements"
+    },
+    {
+      "kind": "li",
+      "text": "3+ years of experience designing web or mobile products."
+    },
+    {
+      "kind": "li",
+      "text": "A portfolio that shows how you approach research and interaction design."
+    },
+    {
+      "kind": "li",
+      "text": "Experience working with a design system and tokens in Figma."
+    },
+    {
+      "kind": "li",
+      "text": "Familiarity with accessibility standards such as WCAG 2.1 AA."
+    }
+  ]
+}

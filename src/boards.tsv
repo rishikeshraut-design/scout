@@ -1,0 +1,9 @@
+# Aggregate job boards.  provider <TAB> arg <TAB> note
+#
+# These are zero-auth public feeds — no key, no signup, no quota. They cover
+# employers not on the company list, and every hit names a company worth adding
+# to companies.tsv via discover.mjs. That is how the company list grows: earned
+# from real postings rather than enumerated from a directory.
+remotive	design	remote design roles
+himalayas		remote roles, all categories
+jobdata	60	the whole ATS market, one daily download (Feashliaa/job-board-data)

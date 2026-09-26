@@ -1,0 +1,88 @@
+{
+  "key": "https://example.test/jobs/wide-world-importers-customer-service-representative",
+  "url": "https://example.test/jobs/wide-world-importers-customer-service-representative",
+  "source": "fixture",
+  "company": "Wide World Importers",
+  "title": "Customer Service Representative",
+  "fetched": "2026-01-15T12:00:00.000Z",
+  "posted": "2026-01-14",
+  "format": "text",
+  "blocks": [
+    {
+      "kind": "p",
+      "text": "JOB DUTIES"
+    },
+    {
+      "kind": "li",
+      "text": "Answer customer calls and emails about orders, deliveries and returns."
+    },
+    {
+      "kind": "li",
+      "text": "Process refunds and exchanges following company policy."
+    },
+    {
+      "kind": "li",
+      "text": "Update customer records after every interaction."
+    },
+    {
+      "kind": "li",
+      "text": "Escalate unresolved complaints to a team lead."
+    },
+    {
+      "kind": "li",
+      "text": "Track open cases until they are closed."
+    },
+    {
+      "kind": "li",
+      "text": "Explain product features and warranty terms to customers."
+    },
+    {
+      "kind": "li",
+      "text": "Place replacement orders for damaged items."
+    },
+    {
+      "kind": "li",
+      "text": "Keep the returns log accurate at the end of each shift."
+    },
+    {
+      "kind": "li",
+      "text": "Help train new representatives on the phone system."
+    },
+    {
+      "kind": "li",
+      "text": "Follow up with customers after a problem is resolved."
+    },
+    {
+      "kind": "li",
+      "text": "Flag recurring product issues to the operations team."
+    },
+    {
+      "kind": "li",
+      "text": "Cover the front counter during busy periods."
+    },
+    {
+      "kind": "p",
+      "text": "Requirements"
+    },
+    {
+      "kind": "li",
+      "text": "One year of customer service experience in retail or a call centre."
+    },
+    {
+      "kind": "li",
+      "text": "Comfortable handling cash and card payments."
+    },
+    {
+      "kind": "li",
+      "text": "Working knowledge of business systems such as order management software."
+    },
+    {
+      "kind": "li",
+      "text": "Clear written and spoken English."
+    },
+    {
+      "kind": "li",
+      "text": "Able to work evenings and weekends."
+    }
+  ]
+}

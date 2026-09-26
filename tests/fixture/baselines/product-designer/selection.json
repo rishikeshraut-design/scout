@@ -1,0 +1,30 @@
+{
+  "label": "product-designer",
+  "variant": "product-designer",
+  "skills_order": [
+    "design_tools",
+    "ux_methods"
+  ],
+  "bullets": [
+    "co_1_ownership",
+    "co_2_process",
+    "co_3_technical",
+    "co_4_research",
+    "co_5_ownership",
+    "co_6_collaboration",
+    "co_7_research",
+    "fb_1_ownership",
+    "fb_2_research",
+    "fb_3_process",
+    "fb_4_technical",
+    "fb_5_collaboration",
+    "fb_6_impact"
+  ],
+  "projects": [
+    "compass_ownership",
+    "lumen_ownership",
+    "kite_research"
+  ],
+  "overrides": {},
+  "rationale": {}
+}

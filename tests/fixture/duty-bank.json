@@ -1,0 +1,596 @@
+{
+  "generated": "2026-09-25",
+  "corpus": {
+    "postings": 3,
+    "companies": [
+      "Adventure Works",
+      "Litware",
+      "Wide World Importers"
+    ],
+    "listLines": 37,
+    "keptLines": 36
+  },
+  "archetypes": {
+    "client-service": {
+      "postings": 2,
+      "companies": [
+        "Adventure Works",
+        "Wide World Importers"
+      ],
+      "seniorities": [
+        "junior",
+        "mid"
+      ],
+      "phrases": [
+        {
+          "term": "clear written",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Clear written communication for email support",
+            "Clear written and spoken English"
+          ]
+        },
+        {
+          "term": "team lead",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Leadership Tracks: Associate -> Team Lead -> Store Manager",
+            "Escalate unresolved complaints to a team lead"
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "term": "able",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Able to learn new software quickly",
+            "Able to lift boxes up to 20 kilograms",
+            "Able to work evenings and weekends"
+          ]
+        },
+        {
+          "term": "clear",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Clear written communication for email support",
+            "Clear written and spoken English"
+          ]
+        },
+        {
+          "term": "comfortable",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Comfortable working with targets for response time",
+            "Comfortable handling cash and card payments"
+          ]
+        },
+        {
+          "term": "customer",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Calm and patient with frustrated customers",
+            "Answer customer calls and emails about orders, deliveries and returns",
+            "Update customer records after every interaction"
+          ]
+        },
+        {
+          "term": "email",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Clear written communication for email support",
+            "Answer customer calls and emails about orders, deliveries and returns"
+          ]
+        },
+        {
+          "term": "experience",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Two years of experience in a customer-facing role",
+            "One year of customer service experience in retail or a call centre"
+          ]
+        },
+        {
+          "term": "handl",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Strong attention to detail when handling returns",
+            "Comfortable handling cash and card payments"
+          ]
+        },
+        {
+          "term": "lead",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Leadership Tracks: Associate -> Team Lead -> Store Manager",
+            "Operations Tracks: Associate -> Inventory Lead -> Operations Manager",
+            "Escalate unresolved complaints to a team lead"
+          ]
+        },
+        {
+          "term": "operation",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Operations Tracks: Associate -> Inventory Lead -> Operations Manager",
+            "Flag recurring product issues to the operations team"
+          ]
+        },
+        {
+          "term": "return",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Strong attention to detail when handling returns",
+            "Answer customer calls and emails about orders, deliveries and returns",
+            "Keep the returns log accurate at the end of each shift"
+          ]
+        },
+        {
+          "term": "shift",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Available for weekend shifts during the holiday season",
+            "Keep the returns log accurate at the end of each shift"
+          ]
+        },
+        {
+          "term": "software",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Able to learn new software quickly",
+            "Working knowledge of business systems such as order management software"
+          ]
+        },
+        {
+          "term": "team",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "A positive attitude when working in a team",
+            "Leadership Tracks: Associate -> Team Lead -> Store Manager",
+            "Escalate unresolved complaints to a team lead"
+          ]
+        },
+        {
+          "term": "track",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Leadership Tracks: Associate -> Team Lead -> Store Manager",
+            "Operations Tracks: Associate -> Inventory Lead -> Operations Manager",
+            "Training Tracks: Associate -> Trainer -> Learning Coordinator"
+          ]
+        },
+        {
+          "term": "train",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "duties",
+            "requirements"
+          ],
+          "evidence": [
+            "Training Tracks: Associate -> Trainer -> Learning Coordinator",
+            "Help train new representatives on the phone system"
+          ]
+        },
+        {
+          "term": "weekend",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Available for weekend shifts during the holiday season",
+            "Able to work evenings and weekends"
+          ]
+        },
+        {
+          "term": "work",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Comfortable working with targets for response time",
+            "A positive attitude when working in a team",
+            "Working knowledge of business systems such as order management software"
+          ]
+        },
+        {
+          "term": "written",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Clear written communication for email support",
+            "Clear written and spoken English"
+          ]
+        },
+        {
+          "term": "year",
+          "postings": 2,
+          "companies": [
+            "Adventure Works",
+            "Wide World Importers"
+          ],
+          "sections": [
+            "requirements"
+          ],
+          "evidence": [
+            "Two years of experience in a customer-facing role",
+            "One year of customer service experience in retail or a call centre"
+          ]
+        }
+      ],
+      "singletons": 207,
+      "lines": [
+        {
+          "phrase": "Two years of experience in a customer-facing role",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Calm and patient with frustrated customers",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Able to learn new software quickly",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Strong attention to detail when handling returns",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Comfortable working with targets for response time",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Able to lift boxes up to 20 kilograms",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Available for weekend shifts during the holiday season",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Clear written communication for email support",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "A positive attitude when working in a team",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Leadership Tracks: Associate -> Team Lead -> Store Manager",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Operations Tracks: Associate -> Inventory Lead -> Operations Manager",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Training Tracks: Associate -> Trainer -> Learning Coordinator",
+          "section": "requirements",
+          "company": "Adventure Works",
+          "posting": "https://example.test/jobs/adventure-works-customer-experience-associate"
+        },
+        {
+          "phrase": "Answer customer calls and emails about orders, deliveries and returns",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Process refunds and exchanges following company policy",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Update customer records after every interaction",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Escalate unresolved complaints to a team lead",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Track open cases until they are closed",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Explain product features and warranty terms to customers",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Place replacement orders for damaged items",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Keep the returns log accurate at the end of each shift",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Help train new representatives on the phone system",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Follow up with customers after a problem is resolved",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Flag recurring product issues to the operations team",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Cover the front counter during busy periods",
+          "section": "duties",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "One year of customer service experience in retail or a call centre",
+          "section": "requirements",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Comfortable handling cash and card payments",
+          "section": "requirements",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Working knowledge of business systems such as order management software",
+          "section": "requirements",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Clear written and spoken English",
+          "section": "requirements",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        },
+        {
+          "phrase": "Able to work evenings and weekends",
+          "section": "requirements",
+          "company": "Wide World Importers",
+          "posting": "https://example.test/jobs/wide-world-importers-customer-service-representative"
+        }
+      ]
+    },
+    "product-design": {
+      "postings": 1,
+      "companies": [
+        "Litware"
+      ],
+      "seniorities": [
+        "mid"
+      ],
+      "phrases": [],
+      "terms": [],
+      "singletons": 76,
+      "lines": [
+        {
+          "phrase": "Design end-to-end flows for booking, intake and billing, from research to shipped screens",
+          "section": "duties",
+          "company": "Litware",
+          "posting": "https://example.test/jobs/litware-product-designer"
+        },
+        {
+          "phrase": "Run interviews and usability tests with clinic staff and patients",
+          "section": "duties",
+          "company": "Litware",
+          "posting": "https://example.test/jobs/litware-product-designer"
+        },
+        {
+          "phrase": "Maintain and extend the shared component library in Figma",
+          "section": "duties",
+          "company": "Litware",
+          "posting": "https://example.test/jobs/litware-product-designer"
+        },
+        {
+          "phrase": "Work closely with engineers and product managers through delivery",
+          "section": "duties",
+          "company": "Litware",
+          "posting": "https://example.test/jobs/litware-product-designer"
+        },
+        {
+          "phrase": "A portfolio that shows how you approach research and interaction design",
+          "section": "requirements",
+          "company": "Litware",
+          "posting": "https://example.test/jobs/litware-product-designer"
+        },
+        {
+          "phrase": "Experience working with a design system and tokens in Figma",
+          "section": "requirements",
+          "company": "Litware",
+          "posting": "https://example.test/jobs/litware-product-designer"
+        },
+        {
+          "phrase": "Familiarity with accessibility standards such as WCAG 2.1 AA",
+          "section": "requirements",
+          "company": "Litware",
+          "posting": "https://example.test/jobs/litware-product-designer"
+        }
+      ]
+    }
+  },
+  "quarantined": []
+}

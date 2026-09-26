@@ -1,0 +1,21 @@
+{
+  "label": "client-service",
+  "variant": "client-service",
+  "skills_order": [
+    "client_service"
+  ],
+  "bullets": [
+    "nw_1_ownership",
+    "nw_2_process",
+    "nw_3_process",
+    "nw_4_technical",
+    "nw_5_collaboration",
+    "nw_6_ownership",
+    "ts_1_impact",
+    "ts_2_technical",
+    "ts_3_collaboration"
+  ],
+  "projects": [],
+  "overrides": {},
+  "rationale": {}
+}

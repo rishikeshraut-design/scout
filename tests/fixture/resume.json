@@ -1,0 +1,1044 @@
+{
+  "schema": 2,
+  "note": "Test data. Every person, company, project and claim in this file is invented.",
+  "facts": {
+    "nw_1": {
+      "owner": "northwind",
+      "kind": "experience",
+      "quantities": [
+        "$12,500",
+        "12",
+        "5",
+        "6",
+        "9"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "nw_1_ownership"
+      ]
+    },
+    "nw_2": {
+      "owner": "northwind",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "nw_2_process"
+      ]
+    },
+    "nw_3": {
+      "owner": "northwind",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "nw_3_process"
+      ]
+    },
+    "nw_4": {
+      "owner": "northwind",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "nw_4_technical"
+      ]
+    },
+    "nw_5": {
+      "owner": "northwind",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "nw_5_collaboration"
+      ]
+    },
+    "nw_6": {
+      "owner": "northwind",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "nw_6_ownership"
+      ]
+    },
+    "co_1": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [
+        "12",
+        "3",
+        "4",
+        "9"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "co_1_impact",
+        "co_1_ownership",
+        "co_1_process"
+      ]
+    },
+    "co_2": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [
+        "3",
+        "two"
+      ],
+      "entities": [
+        "Figma"
+      ],
+      "verified": "fixture",
+      "bullets": [
+        "co_2_process",
+        "co_2_technical"
+      ]
+    },
+    "co_3": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [
+        "2"
+      ],
+      "entities": [
+        "Figma"
+      ],
+      "verified": "fixture",
+      "bullets": [
+        "co_3_technical",
+        "co_3_collaboration"
+      ]
+    },
+    "co_4": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [
+        "14"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "co_4_research"
+      ]
+    },
+    "co_5": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [
+        "11",
+        "2.1"
+      ],
+      "entities": [
+        "AA",
+        "WCAG"
+      ],
+      "verified": "fixture",
+      "bullets": [
+        "co_5_ownership",
+        "co_5_impact"
+      ]
+    },
+    "co_6": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [
+        "20"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "co_6_collaboration"
+      ]
+    },
+    "co_7": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [
+        "8"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "co_7_research",
+        "co_7_process"
+      ]
+    },
+    "co_8": {
+      "owner": "contoso",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "co_8_impact",
+        "co_8_technical"
+      ]
+    },
+    "ts_1": {
+      "owner": "tailspin",
+      "kind": "experience",
+      "quantities": [
+        "150"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "ts_1_impact"
+      ]
+    },
+    "ts_2": {
+      "owner": "tailspin",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "ts_2_technical"
+      ]
+    },
+    "ts_3": {
+      "owner": "tailspin",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "ts_3_collaboration"
+      ]
+    },
+    "fb_1": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [
+        "3,000"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "fb_1_ownership",
+        "fb_1_impact"
+      ]
+    },
+    "fb_2": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [
+        "10"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "fb_2_research"
+      ]
+    },
+    "fb_3": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "fb_3_process",
+        "fb_3_ownership"
+      ]
+    },
+    "fb_4": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [
+        "Figma"
+      ],
+      "verified": "fixture",
+      "bullets": [
+        "fb_4_technical"
+      ]
+    },
+    "fb_5": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "fb_5_collaboration"
+      ]
+    },
+    "fb_6": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [
+        "3",
+        "6"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "fb_6_impact"
+      ]
+    },
+    "fb_7": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [
+        "15",
+        "400"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "fb_7_research",
+        "fb_7_process"
+      ]
+    },
+    "fb_8": {
+      "owner": "fabrikam",
+      "kind": "experience",
+      "quantities": [],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "fb_8_collaboration"
+      ]
+    },
+    "compass": {
+      "owner": "compass",
+      "kind": "project",
+      "quantities": [
+        "3"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "compass_ownership",
+        "compass_technical",
+        "compass_process"
+      ]
+    },
+    "lumen": {
+      "owner": "lumen",
+      "kind": "project",
+      "quantities": [
+        "6"
+      ],
+      "entities": [
+        "Figma",
+        "Lumen"
+      ],
+      "verified": "fixture",
+      "bullets": [
+        "lumen_ownership",
+        "lumen_process"
+      ]
+    },
+    "kite": {
+      "owner": "kite",
+      "kind": "project",
+      "quantities": [
+        "25"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "kite_research",
+        "kite_process"
+      ]
+    },
+    "beacon": {
+      "owner": "beacon",
+      "kind": "project",
+      "quantities": [
+        "2.1",
+        "30"
+      ],
+      "entities": [
+        "AA",
+        "Beacon",
+        "WCAG"
+      ],
+      "verified": "fixture",
+      "bullets": [
+        "beacon_research",
+        "beacon_technical"
+      ]
+    },
+    "atlas": {
+      "owner": "atlas",
+      "kind": "project",
+      "quantities": [
+        "4"
+      ],
+      "entities": [],
+      "verified": "fixture",
+      "bullets": [
+        "atlas_ownership",
+        "atlas_technical"
+      ]
+    }
+  },
+  "variants": {
+    "product-designer": {
+      "title_line": "Product Designer | Healthcare, SaaS, Design Systems",
+      "summary": "product_designer",
+      "angle_priority": [
+        "impact",
+        "ownership",
+        "process",
+        "collaboration",
+        "technical",
+        "research"
+      ]
+    },
+    "ux-designer": {
+      "title_line": "UX Designer | Research, Interaction Design",
+      "summary": "ux_designer",
+      "angle_priority": [
+        "research",
+        "process",
+        "impact",
+        "ownership",
+        "collaboration",
+        "technical"
+      ]
+    },
+    "client-service": {
+      "title_line": "Customer Service | Retail",
+      "summary": "client_service",
+      "angle_priority": [
+        "ownership",
+        "process",
+        "impact",
+        "collaboration",
+        "technical",
+        "research"
+      ]
+    }
+  },
+  "summaries": {
+    "product_designer": "Product designer with experience in clinic software and project-management tools, from research to shipped flows.",
+    "ux_designer": "UX designer who starts from interviews and usability tests and carries findings through to specs.",
+    "client_service": "Retail shift supervisor and sales associate, comfortable with tills, returns and busy floors."
+  },
+  "skills": {
+    "design_tools": {
+      "keywords": [
+        "Figma",
+        "FigJam",
+        "Miro"
+      ],
+      "category_label": "Design Tools"
+    },
+    "ux_methods": {
+      "keywords": [
+        "User interviews",
+        "Usability testing",
+        "Card sorting",
+        "Wireframing",
+        "Prototyping"
+      ],
+      "category_label": "UX Methods"
+    },
+    "client_service": {
+      "keywords": [
+        "Customer service",
+        "Cash handling",
+        "Returns and exchanges"
+      ],
+      "category_label": "Customer Service"
+    }
+  },
+  "experience": [
+    {
+      "id": "northwind",
+      "company": "Northwind Traders",
+      "company_description": "Grocery retailer",
+      "location": "Toronto, ON",
+      "title": "Shift Supervisor",
+      "start_date": "2025.03",
+      "end_date": "2026.06",
+      "industry": "Retail / Grocery",
+      "tags": [
+        "customer_service",
+        "retail",
+        "supervision",
+        "cash_handling"
+      ],
+      "bullets": [
+        {
+          "id": "nw_1_ownership",
+          "group": "nw_1",
+          "angle": "ownership",
+          "text": "Led a crew of 5–6 on a busy grocery floor averaging $12,500 in daily sales, planning breaks and floor coverage across 6, 9, and 12-hour shifts on days, evenings, and weekends.",
+          "tags": [
+            "supervision",
+            "retail"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "nw_2_process",
+          "group": "nw_2",
+          "angle": "process",
+          "text": "Opened and closed the store, balancing tills and preparing the deposit each night.",
+          "tags": [
+            "cash_handling"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "nw_3_process",
+          "group": "nw_3",
+          "angle": "process",
+          "text": "Handled returns and price disputes at the service desk, following store policy for refunds and exchanges.",
+          "tags": [
+            "customer_service"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "nw_4_technical",
+          "group": "nw_4",
+          "angle": "technical",
+          "text": "Kept the tills and handheld stock scanners running between shifts, restarting and re-pairing devices when they dropped.",
+          "tags": [
+            "retail"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "nw_5_collaboration",
+          "group": "nw_5",
+          "angle": "collaboration",
+          "text": "Trained new hires on the till, the returns desk and opening checks.",
+          "tags": [
+            "training"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "nw_6_ownership",
+          "group": "nw_6",
+          "angle": "ownership",
+          "text": "Took charge of weekly stock counts for the dairy aisle, flagging shortfalls to the manager.",
+          "tags": [
+            "inventory"
+          ],
+          "provenance": "volunteered"
+        }
+      ],
+      "suggested_bullets": []
+    },
+    {
+      "id": "contoso",
+      "company": "Contoso Health",
+      "company_description": "Clinic software company",
+      "location": "Toronto, ON",
+      "title": "Product Designer",
+      "start_date": "2023.06",
+      "end_date": "2025.02",
+      "industry": "Healthcare software",
+      "tags": [
+        "healthcare",
+        "design_systems",
+        "figma",
+        "ux"
+      ],
+      "bullets": [
+        {
+          "id": "co_1_impact",
+          "group": "co_1",
+          "angle": "impact",
+          "text": "Redesigned the patient intake flow, cutting average completion time from 9 minutes to 4 across 12 clinics.",
+          "tags": [
+            "ux"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_1_ownership",
+          "group": "co_1",
+          "angle": "ownership",
+          "text": "Owned the patient intake redesign end to end, from clinic interviews to the shipped flow in 12 clinics.",
+          "tags": [
+            "ux"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_1_process",
+          "group": "co_1",
+          "angle": "process",
+          "text": "Mapped the patient intake flow with front-desk staff before prototyping, then tested each revision in 3 rounds.",
+          "tags": [
+            "ux"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_2_process",
+          "group": "co_2",
+          "angle": "process",
+          "text": "Designed the appointment-booking flow in Figma across 3 two-week sprints, testing each round with clinic staff.",
+          "tags": [
+            "figma"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_2_technical",
+          "group": "co_2",
+          "angle": "technical",
+          "text": "Built the appointment-booking prototype with Figma variables so date and slot states could be tested without engineering.",
+          "tags": [
+            "figma"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_3_technical",
+          "group": "co_3",
+          "angle": "technical",
+          "text": "Set up a token-based colour and spacing system in Figma shared by 2 product teams.",
+          "tags": [
+            "design_systems"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_3_collaboration",
+          "group": "co_3",
+          "angle": "collaboration",
+          "text": "Ran weekly design reviews with engineers so the shared component library stayed in step with the code.",
+          "tags": [
+            "design_systems"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_4_research",
+          "group": "co_4",
+          "angle": "research",
+          "text": "Interviewed 14 nurses and clinic managers to find where scheduling errors started.",
+          "tags": [
+            "research"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_5_ownership",
+          "group": "co_5",
+          "angle": "ownership",
+          "text": "Led accessibility fixes across the clinic portal, correcting 11 contrast and focus-order issues.",
+          "tags": [
+            "accessibility"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_5_impact",
+          "group": "co_5",
+          "angle": "impact",
+          "text": "Brought the clinic portal to WCAG 2.1 AA on its core booking and intake screens.",
+          "tags": [
+            "accessibility"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_6_collaboration",
+          "group": "co_6",
+          "angle": "collaboration",
+          "text": "Worked with the support team to turn the 20 most common help tickets into in-product guidance.",
+          "tags": [
+            "ux"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_7_research",
+          "group": "co_7",
+          "angle": "research",
+          "text": "Ran usability tests with 8 patients on the mobile check-in flow and ranked every issue by severity.",
+          "tags": [
+            "research"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_7_process",
+          "group": "co_7",
+          "angle": "process",
+          "text": "Kept a shared findings log so product and engineering could trace each change back to a test session.",
+          "tags": [
+            "research"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_8_impact",
+          "group": "co_8",
+          "angle": "impact",
+          "text": "Replaced a paper referral form with a guided digital form now used for every new referral.",
+          "tags": [
+            "ux"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "co_8_technical",
+          "group": "co_8",
+          "angle": "technical",
+          "text": "Specified field validation and error states for the referral form with the engineering lead.",
+          "tags": [
+            "ux"
+          ],
+          "provenance": "volunteered"
+        }
+      ],
+      "suggested_bullets": []
+    },
+    {
+      "id": "tailspin",
+      "company": "Tailspin Toys",
+      "company_description": "Toy store chain",
+      "location": "Toronto, ON",
+      "title": "Sales Associate",
+      "start_date": "2022.09",
+      "end_date": "2023.05",
+      "industry": "Retail / Toys",
+      "tags": [
+        "customer_service",
+        "retail",
+        "cash_handling"
+      ],
+      "bullets": [
+        {
+          "id": "ts_1_impact",
+          "group": "ts_1",
+          "angle": "impact",
+          "text": "Served 150 or more customers a shift at a busy checkout during the holiday season.",
+          "tags": [
+            "customer_service"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "ts_2_technical",
+          "group": "ts_2",
+          "angle": "technical",
+          "text": "Processed card, cash and gift-card payments and voided errors on the point-of-sale system.",
+          "tags": [
+            "cash_handling"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "ts_3_collaboration",
+          "group": "ts_3",
+          "angle": "collaboration",
+          "text": "Helped restock shelves and rebuild displays with the floor team after each delivery.",
+          "tags": [
+            "retail"
+          ],
+          "provenance": "volunteered"
+        }
+      ],
+      "suggested_bullets": []
+    },
+    {
+      "id": "fabrikam",
+      "company": "Fabrikam",
+      "company_description": "Project-management software company",
+      "location": "Remote",
+      "title": "UX Designer",
+      "start_date": "2020.01",
+      "end_date": "2022.08",
+      "industry": "SaaS",
+      "tags": [
+        "product_design",
+        "saas",
+        "user_research",
+        "figma"
+      ],
+      "bullets": [
+        {
+          "id": "fb_1_ownership",
+          "group": "fb_1",
+          "angle": "ownership",
+          "text": "Owned the billing settings area of a project-management product used by 3,000 small teams.",
+          "tags": [
+            "product_design"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_1_impact",
+          "group": "fb_1",
+          "angle": "impact",
+          "text": "Simplified billing settings so plan changes no longer needed a support ticket.",
+          "tags": [
+            "product_design"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_2_research",
+          "group": "fb_2",
+          "angle": "research",
+          "text": "Ran 10 customer interviews to learn why teams abandoned the setup checklist.",
+          "tags": [
+            "user_research"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_3_process",
+          "group": "fb_3",
+          "angle": "process",
+          "text": "Wrote interaction specs and flow diagrams that engineers built from without a handoff meeting.",
+          "tags": [
+            "product_design"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_3_ownership",
+          "group": "fb_3",
+          "angle": "ownership",
+          "text": "Took over the onboarding checklist after its designer left and shipped its second version.",
+          "tags": [
+            "product_design"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_4_technical",
+          "group": "fb_4",
+          "angle": "technical",
+          "text": "Prototyped the reporting dashboard in Figma with realistic sample data for stakeholder reviews.",
+          "tags": [
+            "figma"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_5_collaboration",
+          "group": "fb_5",
+          "angle": "collaboration",
+          "text": "Paired with product managers on quarterly roadmap reviews, bringing usage data to each.",
+          "tags": [
+            "product_design"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_6_impact",
+          "group": "fb_6",
+          "angle": "impact",
+          "text": "Cut the steps to invite a teammate from 6 to 3.",
+          "tags": [
+            "product_design"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_7_research",
+          "group": "fb_7",
+          "angle": "research",
+          "text": "Analysed 400 support tickets to size the most common navigation problems.",
+          "tags": [
+            "user_research"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_7_process",
+          "group": "fb_7",
+          "angle": "process",
+          "text": "Ran card sorts with 15 users before restructuring the main navigation.",
+          "tags": [
+            "user_research"
+          ],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "fb_8_collaboration",
+          "group": "fb_8",
+          "angle": "collaboration",
+          "text": "Presented research findings at monthly all-hands to keep sales and support aligned.",
+          "tags": [
+            "user_research"
+          ],
+          "provenance": "volunteered"
+        }
+      ],
+      "suggested_bullets": []
+    }
+  ],
+  "education": [
+    {
+      "id": "example_college",
+      "degree": "Diploma in User Experience Design",
+      "institution": "Example College",
+      "location": "Toronto, ON",
+      "start_date": "2019",
+      "end_date": "2020"
+    }
+  ],
+  "projects": [
+    {
+      "id": "compass",
+      "name": "Compass — Budget App",
+      "tools": "Node.js, Figma",
+      "tags": [
+        "product_design",
+        "full_stack"
+      ],
+      "bullets": [
+        {
+          "id": "compass_ownership",
+          "group": "compass",
+          "angle": "ownership",
+          "text": "Designed and built a budgeting app that imports bank exports and sorts every transaction into categories.",
+          "tags": [],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "compass_technical",
+          "group": "compass",
+          "angle": "technical",
+          "text": "Wrote importers for 3 bank export formats and a test suite that runs on every change.",
+          "tags": [],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "compass_process",
+          "group": "compass",
+          "angle": "process",
+          "text": "Planned the app in written specs and decision records before building each part.",
+          "tags": [],
+          "provenance": "volunteered"
+        }
+      ]
+    },
+    {
+      "id": "lumen",
+      "name": "Lumen — Plant Care App Concept",
+      "tools": "Figma",
+      "tags": [
+        "product_design",
+        "mobile"
+      ],
+      "bullets": [
+        {
+          "id": "lumen_ownership",
+          "group": "lumen",
+          "angle": "ownership",
+          "text": "Designed a plant-care app concept from research to a clickable Figma prototype.",
+          "tags": [],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "lumen_process",
+          "group": "lumen",
+          "angle": "process",
+          "text": "Tested the Lumen prototype with 6 people and revised the onboarding after each round.",
+          "tags": [],
+          "provenance": "volunteered"
+        }
+      ]
+    },
+    {
+      "id": "kite",
+      "name": "Kite — Library Website Audit",
+      "tools": "Figma",
+      "tags": [
+        "ux_research",
+        "web"
+      ],
+      "bullets": [
+        {
+          "id": "kite_research",
+          "group": "kite",
+          "angle": "research",
+          "text": "Audited a public library website against usability heuristics and logged 25 issues.",
+          "tags": [],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "kite_process",
+          "group": "kite",
+          "angle": "process",
+          "text": "Turned the audit into a prioritised redesign plan with annotated wireframes.",
+          "tags": [],
+          "provenance": "volunteered"
+        }
+      ]
+    },
+    {
+      "id": "beacon",
+      "name": "Beacon — Museum Wayfinding Concept",
+      "tools": "Figma",
+      "tags": [
+        "ux_research",
+        "accessibility"
+      ],
+      "bullets": [
+        {
+          "id": "beacon_research",
+          "group": "beacon",
+          "angle": "research",
+          "text": "Surveyed 30 museum visitors about how they find their way between galleries.",
+          "tags": [],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "beacon_technical",
+          "group": "beacon",
+          "angle": "technical",
+          "text": "Checked every Beacon screen against WCAG 2.1 AA contrast rules before handoff.",
+          "tags": [],
+          "provenance": "volunteered"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas — Budget Spreadsheet",
+      "supersededBy": "compass",
+      "tools": "Google Sheets",
+      "tags": [
+        "product_design"
+      ],
+      "bullets": [
+        {
+          "id": "atlas_ownership",
+          "group": "atlas",
+          "angle": "ownership",
+          "text": "Built a shared budgeting spreadsheet with monthly category totals for 4 housemates.",
+          "tags": [],
+          "provenance": "volunteered"
+        },
+        {
+          "id": "atlas_technical",
+          "group": "atlas",
+          "angle": "technical",
+          "text": "Wrote spreadsheet formulas that flagged any category running over its monthly limit.",
+          "tags": [],
+          "provenance": "volunteered"
+        }
+      ]
+    }
+  ],
+  "emphasis": [
+    "Figma",
+    "WCAG 2.1 AA"
+  ]
+}

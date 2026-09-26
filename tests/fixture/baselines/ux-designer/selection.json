@@ -1,0 +1,31 @@
+{
+  "label": "ux-designer",
+  "variant": "ux-designer",
+  "skills_order": [
+    "ux_methods",
+    "design_tools"
+  ],
+  "bullets": [
+    "co_1_process",
+    "co_2_process",
+    "co_3_collaboration",
+    "co_4_research",
+    "co_5_impact",
+    "co_6_collaboration",
+    "co_7_research",
+    "fb_1_impact",
+    "fb_2_research",
+    "fb_3_ownership",
+    "fb_4_technical",
+    "fb_5_collaboration",
+    "fb_6_impact",
+    "fb_7_research"
+  ],
+  "projects": [
+    "kite_research",
+    "beacon_research",
+    "lumen_process"
+  ],
+  "overrides": {},
+  "rationale": {}
+}

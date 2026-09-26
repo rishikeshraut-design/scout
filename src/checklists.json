@@ -1,0 +1,32 @@
+{
+  "_comment": [
+    "Hand-written cue lists, per archetype. These are QUESTIONS, not observed data.",
+    "Decision 016: a question cannot fabricate anything, so cueing generously is safe;",
+    "the constraint lives entirely on the write step in add-bullet.mjs.",
+    "cues.mjs labels everything here `checklist` and reports how many cues came from",
+    "here versus from real postings, so a thin duty bank is visible rather than",
+    "quietly replaced by guesses. As real postings accumulate for an archetype,",
+    "the bank should carry more of the list and this file should matter less.",
+    "Scope is deliberately narrow: client-service only. Add an archetype when there",
+    "is a reason to, not in anticipation of one."
+  ],
+
+  "client-service": [
+    "handling a customer complaint that escalated past you",
+    "a time the point-of-sale or till system failed mid-shift",
+    "counting down a till, or reconciling cash at close",
+    "opening or closing the store alone",
+    "covering a shift or department that was not yours",
+    "training someone new, formally or just showing them",
+    "a refund or return you had to judge rather than process",
+    "a customer who would not leave, or became aggressive",
+    "keeping a queue moving when the store was overwhelmed",
+    "receiving a delivery, or counting stock against a manifest",
+    "a product recall, safety issue, or spill you dealt with",
+    "building or changing a staff schedule",
+    "flagging theft, loss, or a discrepancy nobody had noticed",
+    "a process at the store you changed or suggested changing",
+    "serving a customer in a second language",
+    "the busiest day of the year, and what your job became that day"
+  ]
+}

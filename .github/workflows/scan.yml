@@ -1,0 +1,58 @@
+name: intake
+
+# Why this runs in CI rather than on a machine: a scheduled scan on two machines
+# would double-append to jobs.tsv, since each dedupes only against its own copy
+# of the ledger. One runner, one ledger, and every machine gets the rows on its
+# next pull.
+#
+# Postings are perishable, and once one is delisted its text is gone for good.
+#
+# Runs only when started by hand, or when another workflow calls it. To run it on
+# a schedule, add a `schedule` trigger — but keep your repository private first:
+# this commits jobs.tsv, which is your record of every job you track and apply to.
+
+on:
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: write
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    # Only one intake at a time. Two overlapping runs would both append and both push.
+    concurrency:
+      group: intake
+      cancel-in-progress: false
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # scan -> fetch bodies. The duty bank is derived, untracked, and rebuilt on
+      # demand (see intake.mjs). No install step: decision 003, this repo has zero
+      # dependencies.
+      - name: intake
+        run: node src/intake.mjs
+
+      - name: commit new rows
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "no new postings — nothing to commit"
+            exit 0
+          fi
+          git config user.name  "scout[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "intake: $(date -u +%Y-%m-%d) scan"
+          # Someone may have pushed while this ran. Rebase onto them rather than
+          # forcing — never force-push here, a rejected push means a machine has
+          # work this runner does not.
+          git pull --rebase --autostash
+          git push
