@@ -48,7 +48,14 @@ export const FOREIGN_CODE = /\b(MA|CA|NY|TX|WA|IL|CO|GA|FL|VA|OR|UT|AZ|VT|CT|NJ|
 // catch "Vancouver, BC" and "Calgary, Alberta", so a city only earns a place here
 // if it is unambiguous. Ottawa, Halifax, Victoria, London, Windsor, Kingston and
 // Richmond are all US or UK cities too, and are left out for that reason.
-export const CANADA = /\b(canada|canadian|can|ontario|british columbia|alberta|quebec|québec|manitoba|saskatchewan|nova scotia|new brunswick|newfoundland|labrador|prince edward island|yukon|northwest territories|nunavut|vancouver|montreal|montréal|calgary|edmonton|winnipeg|saskatoon|gatineau)\b/;
+export const CANADA = /\b(canada|canadian|can|ontario|british columbia|alberta|quebec|québec|manitoba|saskatchewan|nova scotia|newfoundland|labrador|prince edward island|yukon|northwest territories|nunavut|vancouver|montreal|montréal|calgary|edmonton|winnipeg|saskatoon|gatineau)\b/;
+
+// Province names that are ALSO places abroad: New Brunswick is a city in New
+// Jersey. These count as Canada UNLESS something in the same string names a
+// place outside it (FOREIGN_NAME or FOREIGN_CODE). That is the opposite default
+// from ONTARIO_AMBIGUOUS, on purpose: "Moncton, New Brunswick" carries no other
+// Canadian marker, so demanding one would drop real Canadian roles.
+export const CANADA_AMBIGUOUS = /\b(new brunswick)\b/;
 
 // Province CODES, matched case-SENSITIVELY against the original string, never the
 // lowercased one. That is the whole point: "Toronto, ON" names a province and the

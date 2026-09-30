@@ -14,7 +14,7 @@
 
 import {
   TITLE_HIT, TITLE_MISS, ONTARIO_NEAR, ONTARIO_AMBIGUOUS, FOREIGN_NAME, FOREIGN_CODE,
-  CANADA, CANADA_CODE, REMOTE, REMOTE_OK, REMOTE_NOT, REMOTE_WORDS,
+  CANADA, CANADA_AMBIGUOUS, CANADA_CODE, REMOTE, REMOTE_OK, REMOTE_NOT, REMOTE_WORDS,
 } from './config.mjs';
 
 export { ONTARIO_AMBIGUOUS };
@@ -44,12 +44,17 @@ export function unlocated(l) {
   return !l.replace(REMOTE_WORDS, ' ').replace(/[^a-zà-ɏ]/gi, '').length;
 }
 
+/** Does the string name Canada? A shared province name counts only with nothing foreign beside it. */
+const namesCanada = (raw, l) =>
+  CANADA.test(l) || CANADA_CODE.test(raw) ||
+  (CANADA_AMBIGUOUS.test(l) && !FOREIGN_NAME.test(raw) && !FOREIGN_CODE.test(raw));
+
 export function classify(location, remoteFlag) {
   const raw = location || '';
   const l = raw.toLowerCase();
   if (ONTARIO_NEAR.test(l)) return 'local';
-  if (ONTARIO_AMBIGUOUS.test(l) && (CANADA.test(l) || CANADA_CODE.test(raw))) return 'local';
+  if (ONTARIO_AMBIGUOUS.test(l) && namesCanada(raw, l)) return 'local';
   if ((remoteFlag || REMOTE.test(l)) && !REMOTE_NOT.test(l) && (REMOTE_OK.test(l) || unlocated(l))) return 'remote';
-  if (CANADA.test(l) || CANADA_CODE.test(raw)) return 'canada';
+  if (namesCanada(raw, l)) return 'canada';
   return null;
 }

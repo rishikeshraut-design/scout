@@ -587,6 +587,14 @@ ok('two phrasings of one duty share a concept', (() => {
   is('reach: bare Kitchener is local', c('Kitchener'), 'local');
   is('reach: bare Mississauga is local', c('Mississauga'), 'local');
 
+  // A province name that is also a US city counts as Canada unless the string
+  // names a place outside Canada.
+  is('reach: Moncton New Brunswick is canada', c('Moncton, New Brunswick'), 'canada');
+  is('reach: bare New Brunswick is canada', c('New Brunswick'), 'canada');
+  is('reach: New Brunswick Canada is canada', c('Fredericton, New Brunswick, Canada'), 'canada');
+  is('reach: New Brunswick New Jersey is NOT canada', c('New Brunswick, New Jersey, United States of America'), null);
+  is('reach: New Brunswick NJ is NOT canada', c('New Brunswick, NJ'), null);
+
   is('reach: KOHO (CAN) is canada', c('KOHO (CAN)'), 'canada');
   is('reach: bare CAN is canada', c('CAN'), 'canada');
 
